@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Home() {
+function Login() {
   const [username, setUsername] = useState('');
   const navigate = useNavigate();
 
@@ -29,4 +29,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Login;
